@@ -463,7 +463,7 @@ img{
         margin-top: 12rem;
     }
     .home__img{
-        margin-right:15rem ;
+        margin-right: 5rem ;
         margin-top: 20rem;
         width: 457px;
         bottom: 15%;
@@ -478,18 +478,37 @@ img{
 
     .about__img img{
         width: 300px;
-        margin-right: 45rem;
-        margin-top: 5rem;
+        margin-right: 35rem;
+        margin-top: 6rem;
+        margin-left: -2 rem;
     }
 
     .about__subtitle{
         margin-left: 35rem;
+        margin-top: -20.5rem;
+        float:center; 
+       
     }
 
     .about__text{
-        position: inherit;
+        position: relative;
         margin-left: 35rem;
         margin-bottom: 10rem;
+        margin-top: 1.5rem;
+        display:inline-block; 
+    }
+
+    .skills__data{
+        margin-left: -1rem;
+        width : 65%;
+        height: 65%;
+    }
+    .skills__img{
+        width: 484px;
+        height: 285px;
+        margin-left: 45rem;
+        margin-top : -25rem;
+        margin-right: 13rem;
     }
     .work__container{
         grid-template-columns: repeat(3,1fr);
