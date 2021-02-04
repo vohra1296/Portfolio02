@@ -221,8 +221,10 @@ img{
 
 .home__social-icon{
     width: max-content;
+    display: inline-flex;
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
+    margin-top: 1rem;
     color: var(--second-color);
 }
 
@@ -231,10 +233,14 @@ img{
 }
 
 .home__img{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom:0;
     width:295px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -2rem;
+    border-radius: .5rem;
 }
 
 /*--==== BUTTONS ===========--*/
@@ -258,6 +264,9 @@ img{
 
 .about__subtitle{
     margin-bottom: var(--mb-2);
+}
+.about__text{
+    margin-bottom: 7rem;
 }
 .about__img{
     justify-self: center;
